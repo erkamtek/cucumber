@@ -1,0 +1,11 @@
+@smokeTest
+
+Feature: LoginFeature
+
+  This feature deals with the login functionality of the application
+
+  Scenario: Login with correct username and password
+    Given User navigate to login page
+    And User enter the username as admin and password  as admin
+    And User click login button
+    Then User should see the userform page
